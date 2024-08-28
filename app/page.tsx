@@ -1,9 +1,12 @@
+import Navbar from "@/components/Navbar";
+import Landing from "@/pages/Landing/Landing";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      Shelabh Tyagi
+    <div className="font-code">
+      <Navbar />
+      <Landing />
     </div>
   );
 }
