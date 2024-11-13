@@ -28,7 +28,7 @@ const PersonalWork = () => {
 						learnMore="./luk"
 					/>
 					<ProjectCard
-						imageUrl="./images/projects/Mienai.png"
+						imageUrl="./images/projects/mienai.png"
 						title="Mienai"
 						subtitle="An AI Online Travel Agency"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Figma', 'Openai API']}
