@@ -8,7 +8,7 @@ import Link from "next/link"
 const Navbar = () => {
 	return (
 		<>
-			<div className=" fixed w-full ">
+			<div className=" w-full font-code ">
 				<div className="max-w-7xl mx-auto flex flex-row  justify-between items-center p-10 ">
 					<div>
 						Shelabh tyagi
