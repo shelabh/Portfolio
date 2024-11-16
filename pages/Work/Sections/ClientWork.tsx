@@ -17,7 +17,7 @@ const ClientWork = () => {
 						subtitle="AI Wedding Planner"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Figma']}
 						liveLink="https://wedmeai.vercel.app"
-						learnMore="./wedmeai"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/redecom.png"
@@ -25,7 +25,7 @@ const ClientWork = () => {
 						subtitle="Business Consulting"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Figma']}
 						liveLink="https://www.redecom.in"
-						learnMore="./redecom"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/advocateally.png"
@@ -33,7 +33,7 @@ const ClientWork = () => {
 						subtitle="ChatGPT for lawyers"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Openai API']}
 						// liveLink="https://chertnodes.ru"
-						learnMore="./advocateally"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/clippr-studio.png"
@@ -41,7 +41,7 @@ const ClientWork = () => {
 						subtitle="AI video clipping tool"
 						skills={['Next.js', 'Typescript', 'Tailwindcss', 'Figma']}
 						liveLink="https://www.clippr.studio"
-						learnMore="./clippr"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/redoc.png"
@@ -49,7 +49,7 @@ const ClientWork = () => {
 						subtitle="Write content with ai like human "
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Openai API']}
 						liveLink="https://redoc.ai"
-						learnMore="./chatbud"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/chatbud.png"
@@ -57,7 +57,7 @@ const ClientWork = () => {
 						subtitle="Create ai chatbots with custom data"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Openai API']}
 						// liveLink="https://chertnodes.ru"
-						learnMore="./chatbud"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/wrky.png"
@@ -65,7 +65,7 @@ const ClientWork = () => {
 						subtitle="Talent Intelligence Platform to discover hidden potentials."
 						skills={['Next.js', 'Python', 'Typescript', 'Tailwindcss', 'Django', 'Figma']}
 						// liveLink="https://chertnodes.ru"
-						learnMore="./wrky.ai"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/plutope.png"
@@ -73,7 +73,7 @@ const ClientWork = () => {
 						subtitle="Crypto Payment Solution with plutope coin"
 						skills={['Next.js', 'Typescript', 'Tailwindcss', 'Figma']}
 						// liveLink="https://chertnodes.ru"
-						learnMore="./Plutope"
+						learnMore=""
 					/>
 
 				</div>

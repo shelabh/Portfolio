@@ -9,7 +9,7 @@ interface ButtonProps {
 const SimpleButton: React.FC<ButtonProps> = ({ text, onClick }) => {
   return (
     <button 
-      className="p-3 border  border-white hover:bg-[#A78BF6] hover:text-white rounded" 
+      className="p-3 border  border-[#A78BF6] hover:bg-[#A78BF6] hover:text-white rounded" 
       onClick={onClick}
     >
       {text}

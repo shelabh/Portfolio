@@ -1,5 +1,6 @@
 'use client'
 
+import SimpleButton from "@/components/Buttons/SimpleButton";
 import Link from "next/link";
 
 const Head = () => {
@@ -13,11 +14,10 @@ const Head = () => {
 					<div className="text-[#ABB2BF]">
 						He crafts responsive websites and solution centric products <br className="md:block hidden"/>where technologies meet creativity
 					</div>
-					<Link href="/contact">
-						<button className="border-[#A78BF6] border p-3 rounded-md w-max">
-							Contact him !!
-						</button>
-					</Link>
+					
+					<a target="_blank" rel="noopener noreferrer" href="https://calendly.com/tyagishelabh/30min">
+						<SimpleButton text="Book a Call !" />
+					</a>	
 				</div>
 				<div className="flex flex-col items-center">
 					<div>

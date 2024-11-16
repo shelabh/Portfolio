@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className=" w-full font-code ">
-				<div className="max-w-7xl mx-auto flex md:flex-row flex-col  justify-between items-center p-10 ">
+				<div className="max-w-7xl mx-auto  flex md:flex-row flex-col  justify-between items-center p-10 ">
 					<div>
 						Shelabh tyagi
 					</div>
@@ -22,16 +22,6 @@ const Navbar = () => {
 						<Link href="/work">
 							<div className="cursor-pointer hover:text-white">
 								<span className="text-[#A78BF6]">#</span>work
-							</div>
-						</Link>
-						<Link href="/about">
-							<div className="cursor-pointer hover:text-white">
-								<span className="text-[#A78BF6]">#</span>about-me
-							</div>
-						</Link>
-						<Link href="/contact">
-							<div className="cursor-pointer hover:text-white">
-								<span className="text-[#A78BF6]">#</span>contact
 							</div>
 						</Link>
 					</div>

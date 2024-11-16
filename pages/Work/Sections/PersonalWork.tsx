@@ -17,7 +17,7 @@ const PersonalWork = () => {
 						subtitle="Build websites & ai chatbot by text, file, links"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Figma', 'Gemini', 'Vercel Ai SDK']}
 						// liveLink="https://www.redecom.in"
-						learnMore="./instabot"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/luk.png"
@@ -25,7 +25,7 @@ const PersonalWork = () => {
 						subtitle="AI Comics & QR Code Generator"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Figma', 'LeapAi']}
 						// liveLink=""
-						learnMore="./luk"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/mienai.png"
@@ -33,7 +33,7 @@ const PersonalWork = () => {
 						subtitle="An AI Online Travel Agency"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Figma', 'Openai API']}
 						liveLink="https://mienai.vercel.app/"
-						learnMore="./mienai"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/arisa.png"
@@ -41,7 +41,7 @@ const PersonalWork = () => {
 						subtitle="Portfolio Template"
 						skills={['Next.js', 'Typescript', 'Tailwindcss', 'Figma', 'framer-motion']}
 						liveLink="https://arisa-theta.vercel.app"
-						learnMore="./arisa"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/nft.png"
@@ -49,7 +49,7 @@ const PersonalWork = () => {
 						subtitle="Design Template"
 						skills={['Next.js', 'Typescript', 'Tailwindcss', 'Figma', 'framer-motion']}
 						liveLink="https://nft-tracker-orcin.vercel.app/"
-						learnMore="./nft"
+						learnMore=""
 					/>
 					<ProjectCard
 						imageUrl="./images/projects/goba.png"
@@ -57,12 +57,9 @@ const PersonalWork = () => {
 						subtitle="Design Template"
 						skills={['Next.js', 'Typescript', 'Tailwindcss', 'Figma', 'framer-motion']}
 						liveLink="https://goba.vercel.app"
-						learnMore="./goba"
+						learnMore=""
 					/>
-					
-
 				</div>
-
 			</div>
 		</>
 	)
