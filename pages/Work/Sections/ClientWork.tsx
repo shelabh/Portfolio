@@ -6,11 +6,11 @@ import ProjectCard from "@/components/Cards/ProjectCard"
 const ClientWork = () => {
 	return (
 		<>
-			<div className="flex flex-col justify-center gap-16">
+			<div className="flex flex-col justify-center md:gap-16 gap-8">
 				<div className="text-medium text-2xl">
 					<span className="text-[#A78BF6]">#</span>client-work & internships
 				</div>
-				<div className="grid grid-cols-3 gap-10">
+				<div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5">
 					<ProjectCard
 						imageUrl="./images/projects/wedme-ai.png"
 						title="Wedme.ai"
@@ -44,9 +44,17 @@ const ClientWork = () => {
 						learnMore="./clippr"
 					/>
 					<ProjectCard
+						imageUrl="./images/projects/redoc.png"
+						title="Redoc.ai"
+						subtitle="Write content with ai like human "
+						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Openai API']}
+						liveLink="https://redoc.ai"
+						learnMore="./chatbud"
+					/>
+					<ProjectCard
 						imageUrl="./images/projects/chatbud.png"
 						title="Chatbud.ai"
-						subtitle="Tool to create ai chatbots with custom data"
+						subtitle="Create ai chatbots with custom data"
 						skills={['Next.js', 'Supabase', 'Typescript', 'Tailwindcss', 'Openai API']}
 						// liveLink="https://chertnodes.ru"
 						learnMore="./chatbud"

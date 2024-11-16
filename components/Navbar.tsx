@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<>
 			<div className=" w-full font-code ">
-				<div className="max-w-7xl mx-auto flex flex-row  justify-between items-center p-10 ">
+				<div className="max-w-7xl mx-auto flex md:flex-row flex-col  justify-between items-center p-10 ">
 					<div>
 						Shelabh tyagi
 					</div>

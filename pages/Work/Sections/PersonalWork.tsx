@@ -6,11 +6,11 @@ import ProjectCard from "@/components/Cards/ProjectCard";
 const PersonalWork = () => {
 	return (
 		<>
-			<div className="flex flex-col justify-center gap-16">
+			<div className="flex flex-col justify-center md:gap-16 gap-8">
 				<div className="text-medium text-2xl">
 					<span className="text-[#A78BF6]">#</span>personal projects
 				</div>
-				<div className="grid grid-cols-3 gap-10">
+				<div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5">
 					<ProjectCard
 						imageUrl="./images/projects/instabot.png"
 						title="InstaBot"
