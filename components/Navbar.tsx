@@ -13,7 +13,7 @@ const Navbar = () => {
 					<div>
 						@shelabh
 					</div>
-					<div className="flex flex-row items-center text-[#ABB2BF] gap-5">
+					{/* <div className="flex flex-row items-center text-[#ABB2BF] gap-5">
 						<Link href="/">
 							<div className="cursor-pointer hover:text-white">
 								<span className="text-[#A78BF6]">#</span>home
@@ -24,7 +24,7 @@ const Navbar = () => {
 								<span className="text-[#A78BF6]">#</span>work
 							</div>
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</>
