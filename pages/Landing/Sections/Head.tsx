@@ -1,13 +1,14 @@
 'use client'
 
 import SimpleButton from "@/components/Buttons/SimpleButton";
+import Terminal from "@/components/Terminal";
 import Link from "next/link";
 
 const Head = () => {
 	return (
 		<>
 			<div className="flex md:flex-row flex-col-reverse  justify-between items-center  p-10 ">
-				<div className="flex flex-col items-center md:items-start text-center md:text-start gap-7 mt-10 md:mt-0">
+				{/* <div className="flex flex-col items-center md:items-start text-center md:text-start gap-7 mt-10 md:mt-0">
 					<div className="text-2xl">
 						Shelabh is a <span className="text-[#A78BF6]">Full-Stack Web Developer</span> <br className="md:block hidden"/>and an <span className="text-[#A78BF6]">AI/ML Engineer</span>.
 					</div>
@@ -29,7 +30,8 @@ const Head = () => {
 							RN - building <a href="https://monday-launch.vercel.app/" className="text-white underline-offset-2 underline">MondayLaunch</a>
 						</div>
 					</div>
-				</div>
+				</div> */}
+				<Terminal />
 			</div>
 		</>
 	)

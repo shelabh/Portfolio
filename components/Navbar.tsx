@@ -11,7 +11,7 @@ const Navbar = () => {
 			<div className=" w-full font-code ">
 				<div className="max-w-7xl mx-auto  flex md:flex-row flex-col  justify-between items-center p-10 ">
 					<div>
-						Shelabh tyagi
+						@shelabh
 					</div>
 					<div className="flex flex-row items-center text-[#ABB2BF] gap-5">
 						<Link href="/">

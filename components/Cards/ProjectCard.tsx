@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, subtitle, sk
       	<div className=" w-full flex justify-center">
         	<img src={imageUrl} alt={title} className="   rounded-t-md  " />
       	</div>
-	      {/* <div className="px-4">
+	      <div className="px-4">
         <div className="grid grid-cols-3 gap-3">
           {skills.map((skill, index) => (
             <span key={index} className="flex flex-row items-center justify-center p-1  bg-gray-700 rounded-lg  text-sm">
@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, subtitle, sk
             </span>
           ))}
         </div>
-      </div> */}
+      </div>
 	{/* Title section */}
       	<div className="flex flex-col px-4">
           <div className="text-2xl font-bold">{title}</div>
